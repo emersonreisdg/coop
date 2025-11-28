@@ -13,7 +13,7 @@ from django.core.wsgi import get_wsgi_application
 
 from dotenv import load_dotenv
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Coopesma.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'COOPESMA.settings')
 
 load_dotenv()
 

@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Coopesma.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'COOPESMA.settings')
 
     load_dotenv()
 
